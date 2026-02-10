@@ -1,4 +1,6 @@
-document.getElementById("btn").addEventListener("click", function () {
-  document.getElementById("message").textContent =
-    "見てくれてありがとうございます！";
+const btn = document.getElementById('btn');
+const message = document.getElementById('message');
+
+btn.addEventListener('click', () => {
+  message.textContent = '見てくれてありがとうございます！';
 });

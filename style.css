@@ -1,0 +1,79 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* 横中央 */
+  align-items: center;     /* 縦中央 */
+  background: linear-gradient(135deg, #eef2f3, #d9e2ec);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+  font-size: 18px;
+}
+
+
+
+
+.container {
+  max-width: 600px;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2em;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 1.3em;
+}
+
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin-top: 25px;
+  padding: 14px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+
+button:hover {
+  background-color: #4338ca;
+}
+
+#message {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: #4f46e5;
+}
+.pet-photo {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
